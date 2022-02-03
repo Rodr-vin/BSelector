@@ -1,0 +1,5 @@
+name: "BSelector"
+version: "1.0"
+main: "BSelector.Main"
+commands:
+  selector:

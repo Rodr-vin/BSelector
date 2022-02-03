@@ -1,0 +1,39 @@
+# ＢＳＥＬＥＣＴＯＲ by BriianConner
+# ° FEATURES
+# - Servidores e icones ilimitados;
+# - Possibilidade de usar heads no menu;
+# - Você estiliza o menu da sua maneira, para que o servidor fique a sua cara =D;
+# - Suporta placeholders;
+# - Placeholders atualiza com o menu aberto (possibilidade de fazer contagem de player pelo menu);
+# - Itens brilhosos;
+# - 100% configurável. 
+
+NomeMenu: "Selecione o Servidor" 
+ChestSlots: 54 #Disponível: 9 | 18 | 27 | 45 | 54
+  
+Servidores:
+  Servidor1:
+    Item: DIAMOND #Material List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+    Short: 0 #
+    Head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRhZjg3MGI5YTE0OGM4YjBiNjA2YTk5ZjJiMTc5OGFhODdjM2M5NTZhZDgxOTRmYjY0MGY0OTVkM2ExZWNjZiJ9fX0=
+    Nome: "&7Factions" 
+    Lore: #Sugestão: /papi ecloud download Bungee (Possibilidade de colocar a quantidade de players do servidor na lore. %bungee_<servername>% | %bungee_total% 
+      - ""
+    BungeeName: Factions #Nome do servidor na BungeeCord. OBS: Remover essa linha torna o icone como decorativo.
+    ItemBrilhante: false
+    Slot: 14
+  Servidor2:
+    Item: DIAMOND
+    Short: 0 #
+    Nome: "&7Rankup" 
+    Lore: #Sugestão: /papi ecloud download Bungee (Possibilidade de colocar a quantidade de players do servidor na lore. %bungee_<servername>% | %bungee_total% 
+      - "oi "
+    BungeeName: Rankup #Nome do servidor na BungeeCord
+    Slot: 15
+  Icone:
+    Item: STAINED_GLASS_PANE
+    Short: 5
+    Nome: "&7Origin" 
+    Lore: #Sugestão: /papi ecloud download Bungee (Possibilidade de colocar a quantidade de players do servidor na lore. %bungee_<servername>% | %bungee_total% 
+      - "oi "
+    Slot: 0
