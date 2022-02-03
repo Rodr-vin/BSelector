@@ -1,5 +1,5 @@
- ＢＳＥＬＥＣＴＯＲ by BriianConner
- ° FEATURES
+BSelector by BriianConner
+
  - Servidores e icones ilimitados;
  - Possibilidade de usar heads no menu;
  - Você estiliza o menu da sua maneira, para que o servidor fique a sua cara =D;
