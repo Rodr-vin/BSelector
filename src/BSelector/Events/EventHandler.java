@@ -39,11 +39,6 @@ public class EventHandler implements Listener {
 				for (String key : keys) {
 					if (Main.getInstance().getConfig().getString("Servidores." + key + ".BungeeName") != null) {
 						if (Main.getInstance().getConfig().getInt("Servidores." + key + ".Slot") == e.getSlot()) {
-							Bukkit.broadcastMessage("" + e.getSlot() + " "
-									+ Main.getInstance().getConfig().getInt("Servidores." + key + ".Slot"));
-							String servidor = Main.getInstance().getConfig()
-									.getString("Servidores." + key + ".BungeeName");
-							Bukkit.broadcastMessage("" + servidor);
 							ByteArrayOutputStream b = new ByteArrayOutputStream();
 							DataOutputStream out = new DataOutputStream(b);
 							try {
@@ -56,7 +51,6 @@ public class EventHandler implements Listener {
 						}
 					}
 				}
-				Bukkit.broadcastMessage("" + Main.getInstance().getConfig().toString());
 			}
 
 		}
